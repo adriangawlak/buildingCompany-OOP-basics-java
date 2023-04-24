@@ -29,12 +29,12 @@ public class Main {
         uzytkownik2.updateName("Tadeusz", "Kowalski");
 
         // Tworzymy obiekty klasy Brygada oraz wywołujemy metody
-        Brygada brygada1 = new Brygada("Drużyna A", brygadzista1);
+        Brygada brygada1 = new Brygada("Drużyna Pierścienia", brygadzista1);
         ArrayList<Pracownik> obsada1 = new ArrayList<>(Arrays.asList(kopacz1, kopacz2, specjalista1));
-        Brygada brygada2 = new Brygada("Grupa Mozarta", brygadzista2, obsada1);
+        Brygada brygada2 = new Brygada("Avengers", brygadzista2, obsada1);
 
         ArrayList<Pracownik> obsada2 = new ArrayList<>(Arrays.asList(kopacz3, kopacz4));
-        Brygada brygada3 = new Brygada("Paranienormalni", brygadzista1, obsada2);
+        Brygada brygada3 = new Brygada("Agenci", brygadzista1, obsada2);
 
         brygada2.addToBrygada(kopacz3);
         brygada2.addToBrygada(obsada2);
